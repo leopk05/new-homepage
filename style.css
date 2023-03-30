@@ -1,6 +1,100 @@
+
+
+
 body{
     background-color: hsl(36, 100%, 99%);
     margin: 4% 14%;
+}
+
+h6{
+    color: white;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+h6:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.p1{
+    color: hsl(36, 100%, 99%);
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin-bottom: 10%;
+}
+
+.p3{
+    color: hsl(36, 100%, 99%);
+    font-weight: lighter;
+    font-size: 1.2rem;
+
+}
+
+@media (max-width: 900px) {
+    body{
+        background-color: hsl(36, 100%, 99%);
+        margin: 4%;
+    }
+}
+
+h3{
+    color: hsl(233, 8%, 79%);
+    font-size: 3rem;
+    text-align: start;
+}
+
+h5{
+    font-weight: bold;
+    text-align: left;
+}
+
+h5:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+
+
+
+
+/*------------------------nav bar section------------------*/
+.nav-link:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.navbar-brand{
+    margin-left: 1.9%;
+}
+
+
+
+
+
+/*------------------------middle part------------------*/
+
+.sm-text{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+}
+
+.read-more-button{
+    padding: 2% 9%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+}
+
+.read-more-area{
+    position: relative;
+    padding: 4%;
+    text-align: left;
 }
 
 
@@ -8,7 +102,38 @@ body{
 
 
 
-/*------------------------nav bar section------------------*/
-.nav-item{
+.news-part{
+    background-color: hsl(240, 100%, 5%);
+    text-align: left;
+    padding: 2% 2% 0 2%;
+}
 
+.new-text{
+    font-size: 3rem;
+    font-weight: bold;
+    color: hsl(35, 77%, 62%);
+}
+
+.line{
+    color: white;
+}
+
+
+
+
+/*------------------------card part------------------*/
+
+.card-area{
+    margin: 4% 2%;
+}
+
+.float{
+    padding-top: 3%;
+    margin-right: 5%;
+    float: left;
+    width: 140px;
+}
+
+.card-sm-text{
+    text-align: left;
 }
