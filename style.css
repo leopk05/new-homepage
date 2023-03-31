@@ -35,8 +35,14 @@ h6:hover{
 
 @media (max-width: 900px) {
     body{
-        background-color: hsl(36, 100%, 99%);
         margin: 4%;
+    }
+
+
+    .read-more-area{
+        height: 200px;
+        margin-bottom: 15%;
+
     }
 }
 
@@ -85,6 +91,8 @@ h5:hover{
 }
 
 .read-more-button{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
     padding: 2% 9%;
     position: absolute;
     bottom: 0;
